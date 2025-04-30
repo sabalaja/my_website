@@ -1,0 +1,119 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Strona Julki o muzyce" />
+	<title>Strona Julki</title>
+	<link rel="stylesheet" href="styles/style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<h1 class="logo">Julka</h1>
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Galeria</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
+				<li><a href="lab1.html">Ćwiczenia</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<main>
+		<section class="lab1">
+			<h1>Wykonane ćwiczenia</h1>
+			<ol>
+				<li><a href="#cw1" class="link1">Ćwiczenie 1</a></li>
+				<li><a href="#cw2" class="link2">Ćwiczenie 2</a></li>
+				<li><a href="#cw3" class="link3">Ćwiczenie 3</a></li>
+			</ol>
+
+			<div id="cw1" class="exercise">
+				<div class="exercise-header">
+					<h2>Ćwiczenie 1 – Artykuł</h2>
+					<div class="arrow"></div>
+				</div>
+				<div class="content">
+					<h5 class="author">Autor: Jan Kowalski</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+					<img src="./assets/img1.png" alt="Przykładowy obrazek" class="article-image">
+				</div>
+			</div>
+
+			<div id="cw2" class="exercise">
+				<div class="exercise-header">
+					<h2>Ćwiczenie 2 – Tabela produktów</h2>
+					<div class="arrow"></div>
+				</div>
+				<div class="content">
+					<table class="product-table">
+						<tr>
+							<th>Nr.</th>
+							<th>Nazwa produktu</th>
+							<th>Cena produktu</th>
+							<th>Ilość sztuk</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Chleb</td>
+							<td>4.50 zł</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Masło</td>
+							<td>7.00 zł</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Ser</td>
+							<td>9.99 zł</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Mleko</td>
+							<td>3.20 zł</td>
+							<td>12</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Jajka</td>
+							<td>10.00 zł</td>
+							<td>6</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div id="cw3" class="exercise">
+				<div class="exercise-header">
+					<h2>Ćwiczenie 3 – Kolorowe kwadraty</h2>
+					<div class="arrow"></div>
+				</div>
+				<div class="content">
+					<div class="row">
+						<div class="square red"></div>
+						<div class="square blue"></div>
+					</div>
+					<div class="row">
+						<div class="square green"></div>
+						<div class="square yellow"></div>
+						<img src="assets/zarcik.png" alt="Zamieniony kwadrat" class="square">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
